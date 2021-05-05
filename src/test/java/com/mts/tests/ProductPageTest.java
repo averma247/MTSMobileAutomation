@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import com.mts.pages.CartPage;
 import com.mts.pages.GeneralStoreInitialPage;
 import com.mts.pages.ProductPage;
+import com.mts.utils.BaseTest;
 
 public class ProductPageTest extends BaseTest {
 	GeneralStoreInitialPage gsip;

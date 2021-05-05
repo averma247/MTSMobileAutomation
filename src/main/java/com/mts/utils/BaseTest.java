@@ -1,4 +1,4 @@
-package com.mts.tests;
+package com.mts.utils;
 
 import java.io.File;
 import java.io.IOException;

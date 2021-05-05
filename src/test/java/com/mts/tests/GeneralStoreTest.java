@@ -6,6 +6,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.mts.pages.GeneralStoreInitialPage;
+import com.mts.utils.BaseTest;
 
 public class GeneralStoreTest extends BaseTest {	
 
