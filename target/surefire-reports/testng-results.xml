@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="13" total="21" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="80111" started-at="2021-05-05T10:43:52Z" finished-at="2021-05-05T10:45:12Z">
+    <groups>
+      <group name="smoke">
+        <method signature="CartPageTest.verifyTermsAndConditions()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="verifyTermsAndConditions" class="com.mts.tests.CartPageTest"/>
+        <method signature="DummyTest.dummyTest2()[pri:0, instance:com.mts.tests.DummyTest@402a079c]" name="dummyTest2" class="com.mts.tests.DummyTest"/>
+        <method signature="ProductPageTest.verifyProductPageAddToCart()[pri:0, instance:com.mts.tests.ProductPageTest@4cf777e8]" name="verifyProductPageAddToCart" class="com.mts.tests.ProductPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="WebViewSwitchingTest.verifyContextSwitching(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2f686d1f]" name="verifyContextSwitching" class="com.mts.tests.WebViewSwitchingTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="80111" started-at="2021-05-05T10:43:52Z" finished-at="2021-05-05T10:45:12Z">
+      <class name="com.mts.tests.DummyTest">
+        <test-method status="PASS" signature="dummyTest1()[pri:0, instance:com.mts.tests.DummyTest@402a079c]" name="dummyTest1" duration-ms="0" started-at="2021-05-05T10:44:33Z" finished-at="2021-05-05T10:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method status="PASS" signature="dummyTest2()[pri:0, instance:com.mts.tests.DummyTest@402a079c]" name="dummyTest2" duration-ms="0" started-at="2021-05-05T10:44:33Z" finished-at="2021-05-05T10:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+      </class> <!-- com.mts.tests.DummyTest -->
+      <class name="com.mts.tests.WebViewSwitchingTest">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2f686d1f]" name="beforeClassMethod" is-config="true" duration-ms="1" started-at="2021-05-05T10:45:12Z" finished-at="2021-05-05T10:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="FAIL" signature="verifyContextSwitching(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2f686d1f]" name="verifyContextSwitching" duration-ms="0" started-at="2021-05-05T10:45:12Z" finished-at="2021-05-05T10:45:12Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'name' is required by @Test on method verifyContextSwitching but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'name' is required by @Test on method verifyContextSwitching but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContextSwitching -->
+      </class> <!-- com.mts.tests.WebViewSwitchingTest -->
+      <class name="com.mts.tests.ProductPageTest">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.mts.tests.ProductPageTest@4cf777e8]" name="beforeClassMethod" is-config="true" duration-ms="1" started-at="2021-05-05T10:44:57Z" finished-at="2021-05-05T10:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="verifyProductPageAddToCart()[pri:0, instance:com.mts.tests.ProductPageTest@4cf777e8]" name="verifyProductPageAddToCart" duration-ms="13018" started-at="2021-05-05T10:44:57Z" finished-at="2021-05-05T10:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageAddToCart -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mts.tests.ProductPageTest@4cf777e8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-05T10:44:57Z" finished-at="2021-05-05T10:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mts.tests.ProductPageTest@4cf777e8]" name="afterMethod" is-config="true" duration-ms="1880" started-at="2021-05-05T10:45:10Z" finished-at="2021-05-05T10:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mts.tests.ProductPageTest -->
+      <class name="com.mts.tests.CartPageTest">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="beforeClassMethod" is-config="true" duration-ms="266" started-at="2021-05-05T10:43:52Z" finished-at="2021-05-05T10:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-05T10:43:52Z" finished-at="2021-05-05T10:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyCartSum()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="verifyCartSum" duration-ms="16444" started-at="2021-05-05T10:43:52Z" finished-at="2021-05-05T10:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartSum -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="afterMethod" is-config="true" duration-ms="1765" started-at="2021-05-05T10:44:08Z" finished-at="2021-05-05T10:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-05T10:44:10Z" finished-at="2021-05-05T10:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyTermsAndConditions()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="verifyTermsAndConditions" duration-ms="21255" started-at="2021-05-05T10:44:10Z" finished-at="2021-05-05T10:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsAndConditions -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mts.tests.CartPageTest@6500df86]" name="afterMethod" is-config="true" duration-ms="1935" started-at="2021-05-05T10:44:31Z" finished-at="2021-05-05T10:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mts.tests.CartPageTest -->
+      <class name="com.mts.tests.GeneralStoreTest">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.mts.tests.GeneralStoreTest@59ec2012]" name="beforeClassMethod" is-config="true" duration-ms="0" started-at="2021-05-05T10:44:33Z" finished-at="2021-05-05T10:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mts.tests.GeneralStoreTest@59ec2012]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-05T10:44:33Z" finished-at="2021-05-05T10:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sampleTest1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mts.tests.GeneralStoreTest@59ec2012]" name="sampleTest1" duration-ms="11692" started-at="2021-05-05T10:44:33Z" data-provider="getData" finished-at="2021-05-05T10:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mts.tests.GeneralStoreTest@59ec2012]" name="afterMethod" is-config="true" duration-ms="1824" started-at="2021-05-05T10:44:45Z" finished-at="2021-05-05T10:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mts.tests.GeneralStoreTest@59ec2012]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-05-05T10:44:47Z" finished-at="2021-05-05T10:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sampleTest1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mts.tests.GeneralStoreTest@59ec2012]" name="sampleTest1" duration-ms="8092" started-at="2021-05-05T10:44:47Z" data-provider="getData" finished-at="2021-05-05T10:44:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mts.tests.GeneralStoreTest@59ec2012]" name="afterMethod" is-config="true" duration-ms="1889" started-at="2021-05-05T10:44:55Z" finished-at="2021-05-05T10:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mts.tests.GeneralStoreTest -->
+      <class name="com.mts.tests.BaseTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mts.tests.BaseTest@271053e1]" name="init" is-config="true" duration-ms="8623" started-at="2021-05-05T10:43:43Z" finished-at="2021-05-05T10:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.mts.tests.BaseTest@271053e1]" name="afterSuite" is-config="true" duration-ms="444" started-at="2021-05-05T10:45:12Z" finished-at="2021-05-05T10:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mts.tests.BaseTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

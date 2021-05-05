@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GeneralStoreDemoSuite]">
+  <test thread-count="5" name="Regression(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mts.tests.WebViewSwitchingTestCases">
+        <methods>
+          <include name="init"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClassMethod"/>
+          <include name="afterMethod"/>
+          <include name="verifyContextSwitching"/>
+          <include name="averifyContextSwitchingBack"/>
+        </methods>
+      </class> <!-- com.mts.tests.WebViewSwitchingTestCases -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [GeneralStoreDemoSuite] -->

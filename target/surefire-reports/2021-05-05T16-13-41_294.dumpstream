@@ -1,0 +1,4 @@
+# Created at 2021-05-05T16:13:42.404
+Boot Manifest-JAR contains absolute paths in classpath 'E:\VerizonWorkspace\MTSMobileAutomation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

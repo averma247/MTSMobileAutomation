@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [General Store Mobile App]">
+  <test thread-count="5" name="General Store Mobile Module Regression Test(failed)">
+    <classes>
+      <class name="com.mts.tests.GeneralStoreTestCases">
+        <methods>
+          <include name="init"/>
+          <include name="beforeMethod"/>
+          <include name="sampleTest1"/>
+          <include name="afterSuite"/>
+          <include name="verifyIncompleteFormFillup"/>
+          <include name="afterMethod"/>
+          <include name="verifyFormFilUp"/>
+        </methods>
+      </class> <!-- com.mts.tests.GeneralStoreTestCases -->
+      <class name="com.mts.tests.WebViewSwitchingTestCases">
+        <methods>
+          <include name="init"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="verifyContextSwitching"/>
+        </methods>
+      </class> <!-- com.mts.tests.WebViewSwitchingTestCases -->
+      <class name="com.mts.tests.ProductPageTestCases">
+        <methods>
+          <include name="init"/>
+          <include name="afterSuite"/>
+          <include name="verifyProductPageAddToCart"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.mts.tests.ProductPageTestCases -->
+      <class name="com.mts.tests.CartPageTestCases">
+        <methods>
+          <include name="verifyCartSum"/>
+          <include name="init"/>
+          <include name="afterSuite"/>
+          <include name="verifyTermsAndConditions"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.mts.tests.CartPageTestCases -->
+    </classes>
+  </test> <!-- General Store Mobile Module Regression Test(failed) -->
+</suite> <!-- Failed suite [General Store Mobile App] -->

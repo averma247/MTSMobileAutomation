@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="General Store Mobile App">
+	<parameter name="name" value="Dharmendra"/>
+	<parameter name="gender" value="Male"/>
+	<parameter name="country" value="Austria"/>
+	<test name="General Store Mobile Module Regression Test">
+		<packages>
+			<package name="com.mts.tests"/>
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
