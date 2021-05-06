@@ -24,7 +24,7 @@ public class BaseTest {
 	public void init(){
 		System.out.println("Inside Before Suite method :" +this.getClass().getSimpleName());
 		//launchOnAndroidChrome();
-		//startServer();
+		startServer();
 		launchOnAndroidHybridApp();
 
 	}
@@ -46,7 +46,7 @@ public class BaseTest {
 	public void afterSuite(){
 		System.out.println("Inside After suite method: "+ this.getClass().getSimpleName());
 		driver.quit();
-		//stopServer();
+		stopServer();
 		
 	}
 	
