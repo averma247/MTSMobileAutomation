@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14172" started-at="2021-05-05T11:42:46Z" finished-at="2021-05-05T11:43:00Z">
+  <suite name="GeneralStoreDemoSuite" duration-ms="56978" started-at="2021-05-06T09:52:42Z" finished-at="2021-05-06T09:53:39Z">
     <groups>
       <group name="smoke">
-        <method signature="ProductPageTest.verifyProductPageAddToCart()[pri:0, instance:com.mts.tests.ProductPageTest@185d8b6]" name="verifyProductPageAddToCart" class="com.mts.tests.ProductPageTest"/>
+        <method signature="WebViewSwitchingTest.averifyContextSwitchingBack()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2b2948e2]" name="averifyContextSwitchingBack" class="com.mts.tests.WebViewSwitchingTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="14172" started-at="2021-05-05T11:42:46Z" finished-at="2021-05-05T11:43:00Z">
-      <class name="com.mts.tests.ProductPageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.mts.tests.ProductPageTest@185d8b6]" name="init" is-config="true" duration-ms="8787" started-at="2021-05-05T11:42:37Z" finished-at="2021-05-05T11:42:46Z">
+    <test name="Test" duration-ms="56978" started-at="2021-05-06T09:52:42Z" finished-at="2021-05-06T09:53:39Z">
+      <class name="com.mts.tests.WebViewSwitchingTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2b2948e2]" name="init" is-config="true" duration-ms="12444" started-at="2021-05-06T09:52:29Z" finished-at="2021-05-06T09:52:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.mts.tests.ProductPageTest@185d8b6]" name="beforeClassMethod" is-config="true" duration-ms="170" started-at="2021-05-05T11:42:46Z" finished-at="2021-05-05T11:42:46Z">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2b2948e2]" name="beforeClassMethod" is-config="true" duration-ms="186" started-at="2021-05-06T09:52:42Z" finished-at="2021-05-06T09:52:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mts.tests.ProductPageTest@185d8b6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-05-05T11:42:46Z" finished-at="2021-05-05T11:42:46Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2b2948e2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-05-06T09:52:42Z" finished-at="2021-05-06T09:52:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyProductPageAddToCart()[pri:0, instance:com.mts.tests.ProductPageTest@185d8b6]" name="verifyProductPageAddToCart" duration-ms="12252" started-at="2021-05-05T11:42:46Z" finished-at="2021-05-05T11:42:58Z">
+        <test-method status="PASS" signature="averifyContextSwitchingBack()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2b2948e2]" name="averifyContextSwitchingBack" duration-ms="54579" started-at="2021-05-06T09:52:42Z" finished-at="2021-05-06T09:53:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProductPageAddToCart -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mts.tests.ProductPageTest@185d8b6]" name="afterMethod" is-config="true" duration-ms="1719" started-at="2021-05-05T11:42:58Z" finished-at="2021-05-05T11:43:00Z">
+        </test-method> <!-- averifyContextSwitchingBack -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2b2948e2]" name="afterMethod" is-config="true" duration-ms="2186" started-at="2021-05-06T09:53:37Z" finished-at="2021-05-06T09:53:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.mts.tests.ProductPageTest@185d8b6]" name="afterSuite" is-config="true" duration-ms="366" started-at="2021-05-05T11:43:00Z" finished-at="2021-05-05T11:43:01Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.mts.tests.WebViewSwitchingTest@2b2948e2]" name="afterSuite" is-config="true" duration-ms="489" started-at="2021-05-06T09:53:39Z" finished-at="2021-05-06T09:53:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.mts.tests.ProductPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.mts.tests.WebViewSwitchingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- GeneralStoreDemoSuite -->
 </testng-results>
