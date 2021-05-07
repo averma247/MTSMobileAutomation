@@ -94,6 +94,7 @@ public class BaseTest {
 			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel4XLAj");
 			cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "60");
 			cap.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
+			cap.setCapability("chromedriverExecutable",System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\chromedriver.exe");
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");
 			driver=new AndroidDriver<AndroidElement>(url,cap);
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
